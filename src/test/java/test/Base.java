@@ -31,7 +31,8 @@ class Base {
 
     protected void run() {
         double r = Math.random();
-        System.out.print("Hello!");  
+        System.out.println("Hello!");  
+        System.out.println(r);
         if (r < 0.1) {
             fail("oops");
         } else if (r < 0.2) {
